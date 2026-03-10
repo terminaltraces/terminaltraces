@@ -14,6 +14,7 @@ copy_on_select true
 mouse_mode true
 scroll_buffer_size 50000
 default_mode "normal"
+attach_to_session true
 
 // ── Session resurrection (the ADHD "where was I" safety net) ──
 session_serialization true
