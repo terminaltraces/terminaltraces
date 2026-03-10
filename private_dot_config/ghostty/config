@@ -1,0 +1,42 @@
+# ~/.config/ghostty/config
+
+# ── Theme ──
+theme = Catppuccin Mocha
+
+# ── Font ──
+font-family = FiraCode Nerd Font
+font-size = 14
+font-thicken = true
+font-feature = +calt
+font-feature = +liga
+
+# ── Window ──
+window-padding-x = 12
+window-padding-y = 12
+window-padding-balance = true
+window-decoration = false
+mouse-hide-while-typing = true
+
+# ── Transparency ──
+background-opacity = 0.92
+background-blur = 20
+
+# ── Cursor ──
+cursor-style = bar
+cursor-style-blink = false
+adjust-cursor-thickness = 1
+
+# ── Clipboard ──
+copy-on-select = clipboard
+clipboard-paste-protection = false
+
+# ── Performance (Linux) ──
+gtk-single-instance = true
+
+# ── Scrollback ──
+scrollback-limit = 10000000
+
+# ── Zellij-friendly ──
+# Let Zellij handle splits/tabs, keep Ghostty minimal
+keybind = ctrl+shift+t=unbind
+keybind = ctrl+shift+o=unbind
