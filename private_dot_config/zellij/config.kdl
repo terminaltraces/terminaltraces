@@ -33,6 +33,11 @@ keybinds {
     unbind "Ctrl q"  // avoid accidental quit
 
     shared_except "locked" {
+        bind "Alt g" { SwitchToMode "locked"; }
+        bind "Alt t" { SwitchToMode "tab"; }
+        bind "Alt o" { SwitchToMode "session"; }
+        bind "Alt q" { Quit; }
+
         bind "Alt n" { NewPane; }
         bind "Alt h" { MoveFocus "Left"; }
         bind "Alt j" { MoveFocus "Down"; }
